@@ -7,6 +7,12 @@
     <Filter Include="src\Game">
       <UniqueIdentifier>{d816c51d-22b6-4e91-86f0-6bf60632b584}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\World">
+      <UniqueIdentifier>{2948f493-2d16-4bce-be64-ae14df9b2817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Session">
+      <UniqueIdentifier>{9b0114d9-032e-4ff4-98d5-e2849b5773b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -18,6 +24,27 @@
     <ClCompile Include="Game.cpp">
       <Filter>src\Game</Filter>
     </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomWorldGenerator.cpp">
+      <Filter>src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomTerrainGenerator.cpp">
+      <Filter>src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTypeRng.cpp">
+      <Filter>src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>src\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionLoader.cpp">
+      <Filter>src\Session</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -25,6 +52,36 @@
     </ClInclude>
     <ClInclude Include="Game.h">
       <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>src\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>src\World</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainType.h">
+      <Filter>src\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomWorldGenerator.h">
+      <Filter>src\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomTerrainGenerator.h">
+      <Filter>src\World</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTypeRng.h">
+      <Filter>src\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>src\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionLoader.h">
+      <Filter>src\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEvents.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Fwd.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
